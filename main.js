@@ -17,12 +17,13 @@ btnElm.addEventListener('click', () =>
 
    //  imgDivElm.append(img1Tag);
 
-    imgDivElm.innerHTML = `<img src="athletic.jpeg"  style="  height: 350px;
-    width:350px;
+    imgDivElm.innerHTML = `<img src="athletic.jpeg"  style="  height: 65vh;
+    width:100vh;
     border-radius: 6px;
     object-fit: cover;
     object-position:center;
-    margin:10px;" 
+    margin-top:10px;
+    margin-bottom:10px;" 
     / >` ;
   
 
@@ -31,12 +32,13 @@ btnElm.addEventListener('click', () =>
    {
     
    imgDivElm.innerHTML = `<img src="cottagecore.jpeg" / 
-   style="  height: 350px;
-    width:350px;
-    border-radius: 6px;
-    object-fit: cover;
-    object-position:center;
-    margin:10px;"  
+   style="  height: 65vh;
+   width:100vh;
+   border-radius: 6px;
+   object-fit: cover;
+   object-position:center;
+   margin-top:10px;
+   margin-bottom:10px;"  
     />` ;
 
    }
@@ -45,24 +47,26 @@ btnElm.addEventListener('click', () =>
    {
 
       imgDivElm.innerHTML = `<img src="mono1.jpeg" 
-      style="  height: 350px;
-    width:350px;
-    border-radius: 6px;
-    object-fit: cover;
-    object-position:center;
-    margin:10px;"
+      style="height: 65vh;
+      width:100vh;
+      border-radius: 6px;
+      object-fit: cover;
+      object-position:center;
+      margin-top:10px;
+      margin-bottom:10px;"
       / >` ;
 
    }
    else if(selectElm.value === 'virbrant')
    {
       imgDivElm.innerHTML = `<img src="vibrant1.jpeg" 
-    style="  height: 350px;
-    width:350px;
+    style="height: 65vh;
+    width:100vh;
     border-radius: 6px;
     object-fit: cover;
     object-position:center;
-    margin:10px;"
+    margin-top:10px;
+    margin-bottom:10px;"
       / >`;
    }
     
@@ -71,48 +75,53 @@ btnElm.addEventListener('click', () =>
       imgDivElm.innerHTML = 
    `
       <img src="bussiness1.jpeg" 
-      style="  height: 350px;
-    width:350px;
-    border-radius: 6px;
-    object-fit: cover;
-    object-position:center;
-    margin:10px;"
+      style=" height: 65vh;
+      width:100vh;
+      border-radius: 6px;
+      object-fit: cover;
+      object-position:center;
+      margin-top:10px;
+      margin-bottom:10px;"
       / >
 
       <img src="bussiness2.jpeg" 
-      style="  height: 350px;
-    width:350px;
-    border-radius: 6px;
-    object-fit: cover;
-    object-position:center;
-    margin:10px;"
+      style="height: 65vh;
+      width:100vh;
+      border-radius: 6px;
+      object-fit: cover;
+      object-position:center;
+      margin-top:10px;
+      margin-bottom:10px;"
       / >
 
       <img src="bussiness3.jpeg" 
-      style="  height: 350px;
-    width:350px;
-    border-radius: 6px;
-    object-fit: cover;
-    object-position:center;
-    margin:10px;"
+      style="height: 65vh;
+      width:100vh;
+      border-radius: 6px;
+      object-fit: cover;
+      object-position:center;
+      margin-top:10px;
+      margin-bottom:10px;"
       / >
 
       <img src="bussiness4.jpeg" 
-      style="  height: 350px;
-    width:350px;
-    border-radius: 6px;
-    object-fit: cover;
-    object-position:center;
-    margin:10px;"
+      style="height: 65vh;
+      width:100vh;
+      border-radius: 6px;
+      object-fit: cover;
+      object-position:center;
+      margin-top:10px;
+      margin-bottom:10px;"
       / >
 
       <img src="bussiness5.jpeg" 
-      style="  height: 350px;
-    width:350px;
-    border-radius: 6px;
-    object-fit: cover;
-    object-position:center;
-    margin:10px;"
+      style="height: 65vh;
+      width:100vh;
+      border-radius: 6px;
+      object-fit: cover;
+      object-position:center;
+      margin-top:10px;
+      margin-bottom:10px;"
       / >
       ` ;
    }
@@ -124,30 +133,33 @@ btnElm.addEventListener('click', () =>
       
    `
       <img src="classy1.jpeg" 
-      style="  height: 350px;
-    width:350px;
-    border-radius: 6px;
-    object-fit: cover;
-    object-position:center;
-    margin:10px;"
+      style="height: 65vh;
+      width:100vh;
+      border-radius: 6px;
+      object-fit: cover;
+      object-position:center;
+      margin-top:10px;
+      margin-bottom:10px;"
     / >
 
       <img src="classy2.jpeg" 
-      style="  height: 350px;
-    width:350px;
-    border-radius: 6px;
-    object-fit: cover;
-    object-position:center;
-    margin:10px;"
+      style="height: 65vh;
+      width:100vh;
+      border-radius: 6px;
+      object-fit: cover;
+      object-position:center;
+      margin-top:10px;
+      margin-bottom:10px;"
       / >
 
       <img src="classy3.jpeg" 
-      style="  height: 350px;
-    width:350px;
-    border-radius: 6px;
-    object-fit: cover;
-    object-position:center;
-    margin:10px;"
+      style="height: 65vh;
+      width:100vh;
+      border-radius: 6px;
+      object-fit: cover;
+      object-position:center;
+      margin-top:10px;
+      margin-bottom:10px;"
       / >
       ` ;
    }
@@ -158,20 +170,24 @@ btnElm.addEventListener('click', () =>
       
    `
       <img src="lumberjack1.jpeg" 
-      style="  height: 350px;
-    width:350px;
-    border-radius: 6px;
-    object-fit: cover;
-    object-position:center;
-    margin:10px;"/ >
+      style="height: 65vh;
+      width:100vh;
+      border-radius: 6px;
+      object-fit: cover;
+      object-position:center;
+      margin-top:10px;
+      margin-bottom:10px;"
+      / >
 
       <img src="lumberjack2.jpeg" 
-      style="  height: 350px;
-    width:350px;
-    border-radius: 6px;
-    object-fit: cover;
-    object-position:center;
-    margin:10px auto;"/ >
+      style="height: 65vh;
+      width:100vh;
+      border-radius: 6px;
+      object-fit: cover;
+      object-position:center;
+      margin-top:10px;
+      margin-bottom:10px;"
+      / >
       ` ;
    }
 
